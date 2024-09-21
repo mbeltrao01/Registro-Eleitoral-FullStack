@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+    aspect-ratio: 10 / 4; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, button {
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    border-color: #ddd;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0a8494;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #04363d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+li {
+    background-color: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+#registerForm {
+    width: 100%;
+    max-width: 400px; 
+}
+
+#loginLink {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+
+li button {
+    background-color: #0a8494;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+li button:hover {
+    background-color: #04363d;
+}
+
+
+@media (max-width: 768px) {
+    .login-container {
+        padding: 20px;
+        width: 90%; 
+        margin: auto;
+    }
+
+    form {
+        padding: 15px;
+        margin: 10px auto;
+    }
+
+    h1, h2 {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+
+
+label {
+    display: flex;
+    align-items: center; 
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="icons/brasao.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div>
+                <label for="username">Usuário</label>
+                <input type="text" id="username" placeholder="Insira o nome de usuário" required>
+            </div>
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Insira a senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+        <p id="errorMessage" style="color: red;"></p>
+        <p id="loginLink">Ainda não possui uma conta ? <a href="register.html">Registre-se aqui</a>.</p>
+    </div>
+
+    <script src="js/login.js"></script>
+
+</body>
+</html>

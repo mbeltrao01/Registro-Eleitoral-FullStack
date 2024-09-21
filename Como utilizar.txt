@@ -1,0 +1,8 @@
+Para iniciar o projeto:
+1- abrir o terminal dentro da pasta backend.
+2- no terminal deve ficar da seguinte maneira EXEMPLO :"<...PWA projeto\backend>.
+3- Instalar as dependências : npm install bcrypt cors dotenv express helmet jsonwebtoken mongoose.
+4- feito isso iniciar a conexão com mongoDB a partir do comando "node app.js".
+5- executar o index.html.
+6- na tela de login é possivel realizar o login, caso não tenha um usuario registrado, pode cadastrar-se.
+7- Aproveite :D

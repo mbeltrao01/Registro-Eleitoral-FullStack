@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Eleitoral</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="icons/brasao.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+    <div class="logo">
+        <img src="icons/TRE.png" alt="logo TRE">
+    </div>
+
+    <h1>Cadastro de Eleitores</h1>
+
+    <form id="eleitorForm">
+        <input type="text" id="nome" placeholder="Insira seu nome" required>
+        <input type="text" id="etitulo" placeholder="Insira o título eleitoral" required>
+        <label>
+            Marque caso já tenha votado: <input type="checkbox" id="vote"> 
+        </label>
+        <label for="image">Envie um documento oficial com foto:</label>
+        <input type="file" id="foto" accept="image/*" capture="camera">
+        <button type="submit">Adicionar Eleitor</button>
+    </form>
+
+    <h2>Lista de Eleitores</h2>
+    <ul id="eleitorList"></ul>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
